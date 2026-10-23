@@ -1,0 +1,17 @@
+# file sistem macOS / Windows
+.DS_Store
+Thumbs.db
+
+# file yang dibuat ulang otomatis oleh notebook
+**/data/raw/
+**/data/format/
+
+# environment & cache
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+
+# hasil filter CLI
+**/hasil*.csv

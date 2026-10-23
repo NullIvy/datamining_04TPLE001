@@ -1,0 +1,8 @@
+pandas>=3.0
+numpy
+scikit-learn
+matplotlib
+openpyxl
+lxml
+tabulate
+jupyter

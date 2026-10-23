@@ -1,0 +1,31 @@
+Accuracy: 0.967
+
+                 precision    recall  f1-score   support
+
+    Iris-setosa      1.000     1.000     1.000        10
+Iris-versicolor      1.000     0.900     0.947        10
+ Iris-virginica      0.909     1.000     0.952        10
+
+       accuracy                          0.967        30
+      macro avg      0.970     0.967     0.967        30
+   weighted avg      0.970     0.967     0.967        30
+
+Confusion matrix (['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']):
+[[10  0  0]
+ [ 0  9  1]
+ [ 0  0 10]]
+
+Aturan pohon:
+|--- PetalLengthCm <= 2.45
+|   |--- class: Iris-setosa
+|--- PetalLengthCm >  2.45
+|   |--- PetalWidthCm <= 1.65
+|   |   |--- PetalLengthCm <= 4.95
+|   |   |   |--- class: Iris-versicolor
+|   |   |--- PetalLengthCm >  4.95
+|   |   |   |--- class: Iris-virginica
+|   |--- PetalWidthCm >  1.65
+|   |   |--- PetalLengthCm <= 4.85
+|   |   |   |--- class: Iris-virginica
+|   |   |--- PetalLengthCm >  4.85
+|   |   |   |--- class: Iris-virginica
