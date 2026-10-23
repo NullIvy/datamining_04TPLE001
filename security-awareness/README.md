@@ -50,16 +50,16 @@ df = pd.read_csv(URL, dtype={"kode_pos": "string"})
 
 Satu baris = satu perusahaan.
 
-### Analogi dengan prediksi harga rumah
+### Analogi
 
-| | Harga rumah | Proyek ini |
+| Kelompok | Proyek ini |
 |---|---|---|
-| Lokasi | Kode pos, koordinat GPS | `provinsi`, `kota`, `kode_pos`, `latitude`, `longitude` |
-| Ukuran | Luas tanah & bangunan, jumlah kamar | `skala_usaha`, `jumlah_karyawan`, `omzet_tahunan_miliar_rp`, `jumlah_cabang` |
-| Umur | Tahun dibangun | `tahun_berdiri` |
-| Kondisi | — | Tata kelola, lingkungan TI, perilaku karyawan |
-| Riwayat | — | Insiden 12 bulan terakhir, motif & vektor serangan, kerugian |
-| **Target** | Harga jual | `tingkat_awareness` (klasifikasi) / `skor_awareness` (regresi) |
+| Lokasi | `provinsi`, `kota`, `kode_pos`, `latitude`, `longitude` |
+| Ukuran | `skala_usaha`, `jumlah_karyawan`, `omzet_tahunan_miliar_rp`, `jumlah_cabang` |
+| Umur | `tahun_berdiri` |
+| Kondisi | Tata kelola, lingkungan TI, perilaku karyawan |
+| Riwayat | Insiden 12 bulan terakhir, motif & vektor serangan, kerugian |
+| **Target** | `tingkat_awareness` (klasifikasi) / `skor_awareness` (regresi) |
 
 ### Ringkasan
 
