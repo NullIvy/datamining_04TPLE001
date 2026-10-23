@@ -1,4 +1,4 @@
-# Data Mining — Universitas Pamulang
+# Data Mining
 
 Tugas mata kuliah Data Mining (semester 4). Repo ini berisi dua proyek klasifikasi dengan alur yang sama.
 Kenali data dulu, rapikan, baru latih model.
