@@ -13,7 +13,7 @@ Iris dipakai buat belajar alurnya di data kecil yang bersih. Security awareness 
 ## Struktur
 
 ```
-datamining_unpam/
+datamining_04TPLE001/
 ├── iris/
 │   ├── data/Iris.csv
 │   ├── iris_klasifikasi.py
