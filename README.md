@@ -40,7 +40,7 @@ Butuh Python 3.11 atau lebih baru (pandas 3 tidak jalan di versi lama).
 
 ```bash
 git clone https://github.com/NullIvy/datamining_04TPLE001.git
-cd datamining_unpam
+cd datamining_04TPLE001
 pip install -r requirements.txt
 
 python iris/iris_klasifikasi.py
