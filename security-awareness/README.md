@@ -57,8 +57,8 @@ Satu baris = satu perusahaan.
 | Lokasi | `provinsi`, `kota`, `kode_pos`, `latitude`, `longitude` |
 | Ukuran | `skala_usaha`, `jumlah_karyawan`, `omzet_tahunan_miliar_rp`, `jumlah_cabang` |
 | Umur | `tahun_berdiri` |
-| Kondisi | Tata kelola, lingkungan TI, perilaku karyawan |
-| Riwayat | Insiden 12 bulan terakhir, motif & vektor serangan, kerugian |
+| Kondisi |  Tata kelola, lingkungan TI, perilaku karyawan |
+| Riwayat |  Insiden 12 bulan terakhir, motif & vektor serangan, kerugian |
 | **Target** | `tingkat_awareness` (klasifikasi) / `skor_awareness` (regresi) |
 
 ### Ringkasan
