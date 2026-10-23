@@ -39,7 +39,7 @@ Ambil dataset langsung dari GitHub:
 ```python
 import pandas as pd
 
-URL = ("https://raw.githubusercontent.com/USERNAME/datamining_unpam/main/"
+URL = ("https://raw.githubusercontent.com/NullIvy/datamining_04TPLE001/main/"
        "security-awareness/data/security_awareness_indonesia.csv")
 df = pd.read_csv(URL, dtype={"kode_pos": "string"})
 ```

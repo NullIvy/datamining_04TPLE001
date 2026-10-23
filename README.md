@@ -39,7 +39,7 @@ datamining_unpam/
 Butuh Python 3.11 atau lebih baru (pandas 3 tidak jalan di versi lama).
 
 ```bash
-git clone https://github.com/NullIvy/datamining_unpam.git
+git clone https://github.com/NullIvy/datamining_04TPLE001.git
 cd datamining_unpam
 pip install -r requirements.txt
 
