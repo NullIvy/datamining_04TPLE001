@@ -1,0 +1,17 @@
+Accuracy: 0.727
+Baseline: 0.414
+
+              precision    recall  f1-score   support
+
+      Rendah      0.810     0.804     0.807       403
+      Sedang      0.657     0.722     0.688       414
+      Tinggi      0.717     0.568     0.634       183
+
+    accuracy                          0.727      1000
+   macro avg      0.728     0.698     0.710      1000
+weighted avg      0.730     0.727     0.726      1000
+
+Confusion matrix (baris = aktual, kolom = prediksi, urutan ['Rendah', 'Sedang', 'Tinggi']):
+[[324  78   1]
+ [ 75 299  40]
+ [  1  78 104]]

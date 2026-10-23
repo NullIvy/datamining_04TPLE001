@@ -32,14 +32,14 @@ python sa_cli.py rapikan             # bikin data/security_awareness_bersih.csv
 python klasifikasi_awareness.py      # latih & evaluasi model
 ```
 
-Buka notebook di VS Code, pilih kernel Python, lalu **Run All**. Notebook 02 mengambil data dari GitHub. Kalau URL belum bisa diakses, notebook otomatis pakai file lokal.
+Buka notebook di VS Code, pilih kernel Python, lalu **Run All**. Notebook 02 mengambil data dari GitHub. Ganti `GITHUB_USER` di notebook dengan username kamu setelah repo di-push. Kalau URL belum bisa diakses, notebook otomatis pakai file lokal.
 
 Ambil dataset langsung dari GitHub:
 
 ```python
 import pandas as pd
 
-URL = ("https://raw.githubusercontent.com/NullIvy/datamining_unpam/main/"
+URL = ("https://raw.githubusercontent.com/USERNAME/datamining_unpam/main/"
        "security-awareness/data/security_awareness_indonesia.csv")
 df = pd.read_csv(URL, dtype={"kode_pos": "string"})
 ```
