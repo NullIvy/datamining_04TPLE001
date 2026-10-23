@@ -27,9 +27,9 @@ Proyek ini mencoba menjawab dua hal:
 cd security-awareness
 pip install -r ../requirements.txt
 
-python sa_cli.py profil              # kondisi data mentah
-python sa_cli.py rapikan             # bikin data/security_awareness_bersih.csv
-python klasifikasi_awareness.py      # latih & evaluasi model
+python sa_cli.py profil
+python sa_cli.py rapikan
+python klasifikasi_awareness.py
 ```
 
 Buka notebook di VS Code, pilih kernel Python, lalu **Run All**. Notebook 02 mengambil data dari GitHub. Ganti `GITHUB_USER` di notebook dengan username kamu setelah repo di-push. Kalau URL belum bisa diakses, notebook otomatis pakai file lokal.
